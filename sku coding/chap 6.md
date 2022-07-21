@@ -19,5 +19,5 @@
 # 이진트리 순회(깊이우선탐색)
 
 아래 그림과 같은 이진트리를 전위순회와 후위순회를 연습해보세요
-
+<img src = "./https://github.com/jeongdonggi/study/blob/main/sku%20coding/DFS.PNG">
 알고리즘
