@@ -23,7 +23,7 @@ if(s[i] == s[i+1]){
 <strong>알고리즘</strong><br>
 대소문자를 구분하지 않으므로 소문자나 대문자로 통일을 한다. 양쪽을 하나씩 검사하면서 틀린게 없다면 yes를 틀린게 있다면 no를 출력하게 한다.
 
-<storng>핵심 코드(자바)</storng><br>
+<strong>핵심 코드(자바)</strong><br>
 ```java
 s = s.toUpperCase(Locale.ROOT); //대문자 변환
 
@@ -43,7 +43,7 @@ s = s.upper() # 대문자 변환
 String tmp = new StringBuilder(s).reverse().toString(); //변환 가능한 문자열로 바꾼 후 리버슬 해주고 다시 변환 불가한 문자열로 바꿈
 if(s.equalsIgnoreCase(tmp)) answer = "YES"; //대소문자 구분 없이 문자열 구분 가능
 ```
-<storng>핵심 코드(파이썬)</strong><br>
+<strong>핵심 코드(파이썬)</strong><br>
 ```python
 s = s.upper()
 if( s != s[::-1]):
